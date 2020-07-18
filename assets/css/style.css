@@ -1,16 +1,18 @@
+/* universal styles */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* body styles */
 body {
   /* more on this crazy alphanumerical value in a minute! */
   color: #39a6b2;
   font-family: Helvetica, Arial, sans-serif;
 }
 
-/* apply styles to <header> */
+/* header styles start */
 header {
   padding: 20px 35px;
   background-color: #39a6b2;
@@ -43,7 +45,9 @@ header nav ul li a {
   font-weight: lighter;
   font-size: 22px;
 }
+/* header syles end */
 
+/* footer styles start */
 footer {
   background: #fce138;
   width: 100%;
@@ -66,12 +70,15 @@ footer div {
 footer a {
   color: #024e76;
 }
+/* footer styles end */
 
+/* section styles start */
 section {
   padding: 60px;
 }
+/* section styles end */
 
-/* Hero Style Start */
+/* hero styles start */
 .hero {
   background-image: url("../images/hero-bg.jpg");
   height: 600px;
@@ -79,7 +86,6 @@ section {
   background-position: center;
   position: relative;
 }
-/* Hero Style End */
 
 .hero-form {
   border: 3px solid #024e76;
@@ -91,3 +97,35 @@ section {
   bottom: 120px;
   right: 140px;
 }
+
+.hero-form h3 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.hero-form p {
+  margin: 5px 0 15px 0;
+}
+
+.form-input {
+  border: 1px solid #024e76;
+  display: block;
+  padding: 7px 15px;
+  font-size: 16px;
+  color: #024e76;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.hero-form label {
+  margin: 0 5px;
+}
+
+.hero-form button {
+  color: #fce138;
+  background-color: #024e76;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+/* hero styles end */
