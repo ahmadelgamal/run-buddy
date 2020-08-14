@@ -7,7 +7,6 @@
 
 /* body styles */
 body {
-  /* more on this crazy alphanumerical value in a minute! */
   color: #39a6b2;
   font-family: Helvetica, Arial, sans-serif;
 }
@@ -90,10 +89,8 @@ section {
   justify-content: center;
   flex-wrap: wrap;
   background-image: url("../images/hero-bg.jpg");
-  /* height: 600px; */
   background-size: cover;
   background-position: center;
-  /* position: relative; */
 }
 
 .hero-cta {
@@ -157,16 +154,13 @@ section {
 }
 /* hero styles end */
 
-.intro {
-  text-align: center;
-}
-
 .section-title {
+  margin: 0 auto 35px auto;
+  padding-bottom: 20px;
+  width: 50%;
+  text-align: center;
   font-size: 55px;
   color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
-  display: inline-block;
   border-bottom: 3px solid;
 }
 
@@ -184,10 +178,10 @@ section {
   width: 80%;
   font-size: 20px;
   margin: 0 auto;
+  text-align: center;
 }
 
 .steps {
-  text-align: center;
   background: #fce138;
 }
 
@@ -216,7 +210,6 @@ section {
 }
 
 .trainers {
-  text-align: center;
 }
 
 .trainer {
@@ -246,6 +239,10 @@ section {
   text-align: right;
 }
 
+.flex-row {
+  display: flex;
+}
+
 .trainer-bio h3 {
   font-size: 32px;
   margin-bottom: 8px;
@@ -264,7 +261,6 @@ section {
 
 /* reach out styles start */
 .contact {
-  text-align: center;
   background-color: #024e76;
 }
 
