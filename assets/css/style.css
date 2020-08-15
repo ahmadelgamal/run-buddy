@@ -273,6 +273,20 @@ section {
   font-size: 17px;
 }
 
+/* service styles start */
+.service-grid-container {
+  display: grid;
+}
+
+.service-grid-item {
+  width: 200px;
+  height: 50px;
+  background-color: orange;
+  border: solid;
+  color: black;
+}
+/* service styles end */
+
 /* reach out styles start */
 .contact {
   background-color: #024e76;
