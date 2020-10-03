@@ -28,9 +28,8 @@ header {
   top: 0;
   padding: 20px 35px;
   background-color: var(--tertiary-color);
-  background-image: url("assets/images/hero-bg.jpg");
+  background-image: url("../images/hero-bg.jpg");
   background-size: cover;
-  /* background-position: center; */
   background-attachment: fixed;
   background-position: 80%;
 }
@@ -113,9 +112,8 @@ section {
   justify-content: center;
   flex-wrap: wrap;
   align-items: flex-start;
-  background-image: url("assets/images/hero-bg.jpg");
+  background-image: url("../images/hero-bg.jpg");
   background-size: cover;
-  /* background-position: center; */
   background-attachment: fixed;
   background-position: 80%;
 }
@@ -412,15 +410,15 @@ section {
 }
 
 .trainer-1 {
-  background-image: url("assets/images/trainer-1.jpg");
+  background-image: url("../images/trainer-1.jpg");
 }
 
 .trainer-2 {
-  background-image: url("assets/images/trainer-2.jpg");
+  background-image: url("../images/trainer-2.jpg");
 }
 
 .trainer-3 {
-  background-image: url("assets/images/trainer-3.jpg");
+  background-image: url("../images/trainer-3.jpg");
 }
 
 .trainer-bio {
@@ -497,7 +495,6 @@ section {
   grid-column: 1;
   grid-row: 1 / -1;
 }
-
 /* service styles end */
 
 /* reach out styles start */
