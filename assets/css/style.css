@@ -28,7 +28,7 @@ header {
   top: 0;
   padding: 20px 35px;
   background-color: var(--tertiary-color);
-  background-image: url('./assets/images/hero-bg.jpg');
+  background-image: url("/assets/images/hero-bg.jpg");
   background-size: cover;
   /* background-position: center; */
   background-attachment: fixed;
@@ -113,7 +113,7 @@ section {
   justify-content: center;
   flex-wrap: wrap;
   align-items: flex-start;
-  background-image: url('./assets/images/hero-bg.jpg');
+  background-image: url("/assets/images/hero-bg.jpg");
   background-size: cover;
   /* background-position: center; */
   background-attachment: fixed;
@@ -210,7 +210,7 @@ section {
 
 .checkbox-wrapper label::before,
 .radio-wrapper label::before {
-  content: '';
+  content: "";
   height: 20px;
   width: 20px;
   background: rgba(255, 255, 255, 0.75);
@@ -225,7 +225,7 @@ section {
 }
 
 .radio-wrapper label::after {
-  content: '';
+  content: "";
   width: 20px;
   height: 20px;
   border-radius: 50%;
@@ -241,7 +241,7 @@ section {
 }
 
 .checkbox-wrapper label::after {
-  content: '';
+  content: "";
   height: 6px;
   width: 14px;
   border-left: 2px solid var(--secondary-color);
@@ -259,7 +259,7 @@ section {
 
 .checkbox-wrapper input:checked + label::after,
 .radio-wrapper input:checked + label::after {
-  content: '';
+  content: "";
 }
 /* hero styles end */
 
@@ -373,7 +373,7 @@ section {
 }
 
 .trainer-img::after {
-  content: '';
+  content: "";
   height: 100%;
   width: 100%;
   background: linear-gradient(rgba(252, 225, 56, 0.3), var(--secondary-color));
@@ -412,15 +412,15 @@ section {
 }
 
 .trainer-1 {
-  background-image: url('./assets/images/trainer-1.jpg');
+  background-image: url("/assets/images/trainer-1.jpg");
 }
 
 .trainer-2 {
-  background-image: url('./assets/images/trainer-2.jpg');
+  background-image: url("/assets/images/trainer-2.jpg");
 }
 
 .trainer-3 {
-  background-image: url('./assets/images/trainer-3.jpg');
+  background-image: url("/assets/images/trainer-3.jpg");
 }
 
 .trainer-bio {
